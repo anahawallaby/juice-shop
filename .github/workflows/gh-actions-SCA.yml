@@ -2,7 +2,8 @@ name: Software composition analysis (SCA)
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+    - none
   workflow_dispatch:
 
 permissions:
